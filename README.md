@@ -1,11 +1,11 @@
 # AtariPongDQN
-# Deep Q-Network (DQN) for Atari Pong
+## Deep Q-Network (DQN) for Atari Pong
 This repository contains the implementation of a Deep Q-Network (DQN), DDQN and PPO techniques to play the Atari Pong game using Reinforcement Learning techniques. The project demonstrates training a neural network to play the game and evaluates its performance.
 
-# Introduction:
+## Introduction:
 This project aims to create agents that can play the Atari Pong game using various reinforcement learning algorithms, including DQN, DDQN, and PPO. These algorithms combine Q-Learning and policy gradient methods with deep neural networks and experience replay to handle high-dimensional input spaces, such as game frames.
 
-# Project Structure:
+## Project Structure:
 ## (1)Root:
 The '${ROOT} is described as below.
 
@@ -37,28 +37,31 @@ To train the agent and evaluate its performance, follow these steps:
 Open the respective Jupyter notebook (pongDQN.ipynb, pongDDQN.ipynb, or pongPPO.ipynb) and run the cells to start the training process. The training process loads the pre-trained checkpoints and iteratively updates the model checkpoints after every 100 epochs. The training progress is dynamically plotted as a function of total rewards in an episode vs. the episode number.
 
 ## Key Components
-# Replay Buffer: Stores the agent's experiences to sample and train the network.
-# DQN/ DDQN Algorithm: Implements the Deep Q/ Double Deep Q-learning update rule using a neural network.
-# Training Loop: Iterates over episodes, collects experiences, updates the network, and tracks rewards.
+### Replay Buffer: Stores the agent's experiences to sample and train the network.
+### DQN/ DDQN Algorithm: Implements the Deep Q/ Double Deep Q-learning update rule using a neural network.
+### Training Loop: Iterates over episodes, collects experiences, updates the network, and tracks rewards.
 
-# Evaluating the Agent:
+## Evaluating the Agent:
 After training, run the evaluation section of the notebook to see the agent's performance. The evaluation process loads the saved model and runs the agent in evaluation/ greedy mode.
 
 ## Results:
-# DQN
-![dqnPong](https://github.com/user-attachments/assets/46946734-4d1d-424d-bbc6-b5f80bff81d7)
-
-Pong A.I. RL DQN agent wins the match with a 21-11 score. 
-
+### DQN
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/46946734-4d1d-424d-bbc6-b5f80bff81d7" alt="dqnPong">
+  <p>Pong A.I. RL DQN agent wins the match with a 21-11 score.</p>
+  <img src="https://github.com/user-attachments/assets/d131845a-2731-489b-9212-b65df96b7730" alt="DQN Evaluation Run Rewards">
+  <p>Pong A.I. RL agent, which is in green, is getting positive rewards as seen from the attached evaluation run graph.</p>
+</div>
 ![DQN Evaluation Run Rewards](https://github.com/user-attachments/assets/d131845a-2731-489b-9212-b65df96b7730)
 
 Pong A.I RL agent which is in green is getting positive rewards as can be seen from attached evaluation run graph.
 
-# DDQN
+### DDQN
 
-![ddqnPong](https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e)
-
-Pong A.I. RL DQN agent wins the match with a 21-14 score. 
+<div align="center">
+  <img src="path/to/ddqnPong.gif" alt="ddqnPong">
+  <p>Pong A.I. RL DDQN agent wins the match with a 21-14 score.</p>
+</div>
 
 The better performance of DQN agent when compared to DQN agent is attributed to the fact that DDQN agent was trained only for 6000 episode while DQN agent was trained for 14000 episodes.
 
