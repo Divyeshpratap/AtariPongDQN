@@ -2,13 +2,6 @@
 # Deep Q-Network (DQN) for Atari Pong
 This repository contains the implementation of a Deep Q-Network (DQN), DDQN and PPO techniques to play the Atari Pong game using Reinforcement Learning techniques. The project demonstrates training a neural network to play the game and evaluates its performance.
 
-## Table of Contents
-Introduction
-Project Structure
-Usage
-Training the Agent
-Results
-
 # Introduction:
 This project aims to create an agent that can play the Atari Pong game using the Deep Q-Network (DQN) algorithm. The DQN algorithm combines Q-Learning with deep neural networks and experience replay to handle high-dimensional input spaces, such as game frames.
 
@@ -37,7 +30,7 @@ ${ROOT}/
 To train the agent and evaluate its performance, follow these steps:
 
 ## Training the Agent:
-Open the pongDQN.ipynb/ pongDDQN.ipynb/ pongPPO.ipynb notebook and run the cells to start the training process. The training process loads the pre-trained and further updates the model checkpoints after every 100 epochs and dynamically plots the training rewards.
+Open the pongDQN.ipynb/ pongDDQN.ipynb/ pongPPO.ipynb notebook and run the cells to start the training process. The training process loads the pre-trained checkpoints and iteratively updates the model checkpoints after every 100 epochs. The training progress is dynamically plotted as a function of Total reqards in an episode vs the episode number.
 
 # Key Components
 Replay Buffer: Stores the agent's experiences to sample and train the network.
@@ -49,6 +42,13 @@ After training, run the evaluation section of the notebook to see the agent's pe
 
 # Results:
 DQN
-
+![dqnPong](https://github.com/user-attachments/assets/46946734-4d1d-424d-bbc6-b5f80bff81d7)
+Pong A.I. RL DQN agent wins the match with a 21-11 score. 
+![DQN Evaluation Run Rewards](https://github.com/user-attachments/assets/d131845a-2731-489b-9212-b65df96b7730)
+Pong A.I RL agent which is in green is getting positive rewards as can be seen from attached evaluation run graph.
 
 DDQN
+![ddqnPong](https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e)
+Pong A.I. RL DQN agent wins the match with a 21-14 score. 
+
+The better performance of DQN agent when compared to DQN agent is attributed to the fact that DDQN agent was trained only for 6000 episode while DQN agent was trained for 14000 episodes.
