@@ -37,9 +37,9 @@ To train the agent and evaluate its performance, follow these steps:
 Open the respective Jupyter notebook (pongDQN.ipynb, pongDDQN.ipynb, or pongPPO.ipynb) and run the cells to start the training process. The training process loads the pre-trained checkpoints and iteratively updates the model checkpoints after every 100 epochs. The training progress is dynamically plotted as a function of total rewards in an episode vs. the episode number.
 
 ## Key Components
-#### * **Replay Buffer:** Stores the agent's experiences to sample and train the network.
-#### * **DQN/ DDQN Algorithm:** Implements the Deep Q/ Double Deep Q-learning update rule using a neural network.
-#### * **Training Loop:** Iterates over episodes, collects experiences, updates the network, and tracks rewards.
+* **Replay Buffer:** Stores the agent's experiences to sample and train the network.
+* **DQN/ DDQN Algorithm:** Implements the Deep Q/ Double Deep Q-learning update rule using a neural network.
+* **Training Loop:** Iterates over episodes, collects experiences, updates the network, and tracks rewards.
 
 ## Evaluating the Agent:
 After training, run the evaluation section of the notebook to see the agent's performance. The evaluation process loads the saved model and runs the agent in evaluation/ greedy mode.
@@ -59,7 +59,7 @@ Pong A.I RL agent which is in green is getting positive rewards as can be seen f
 ### DDQN
 
 <div align="center">
-  <img src="[path/to/ddqnPong.gif](https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e)" alt="ddqnPong">
+  <img src="https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e)" alt="ddqnPong">
   <p>Pong A.I. RL DDQN agent wins the match with a 21-14 score.</p>
 </div>
 
