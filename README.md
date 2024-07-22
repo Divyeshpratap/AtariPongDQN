@@ -12,20 +12,19 @@ The '${ROOT} is described as below.
 ```plaintext
 ${ROOT}/
 │
-├── pongDQN.ipynb         # Jupyter notebook for training and evaluating DQN on Pong
-├── pongDDQN.ipynb        # Jupyter notebook for training and evaluating DDQN on Pong
-├── pongPPO.ipynb         # Jupyter notebook for training and evaluating PPO on Pong
+├── pongDQN.ipynb         # DQN Pong training and evaluation script
+├── pongDDQN.ipynb        # DDQN Pong training and evaluation script
+├── pongPPO.ipynb         # PPO Pong training script
 ├── report.pdf            # Report summarizing the results
 ├── README.md             # Project documentation
-├── requirements.txt      # Python dependencies
-├── checkpoint/           # Pre-trained weights and model parameters checkpoint directory
+├── checkpoint/           
 │   ├── ddqn2.pth         # Checkpoint for DDQN pre-trained weights and model parameters
 │   ├── dqn.pth           # Checkpoint for DQN pre-trained weights and model parameters
-├── videos/               # Pong Agent evaluation mode visualization 
+├── videos/               
 │   ├── ddqnPong.mp4      # DDQN pong evaluation run
 │   ├── dqnPong.mp4       # DQN pong evaluation run
-│   ├── ddqnPong.gif      # DDQN pong evaluation run as GIF
-│   ├── dqnPong.gif       # DQN pong evaluation run as GIF
+│   ├── ddqnPong.gif      
+│   ├── dqnPong.gif       
 └── requirements.txt      # Requirements file for model dependencies
 
 ```
