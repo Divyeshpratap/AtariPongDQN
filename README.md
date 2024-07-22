@@ -52,14 +52,13 @@ After training, run the evaluation section of the notebook to see the agent's pe
   <img src="https://github.com/user-attachments/assets/d131845a-2731-489b-9212-b65df96b7730" alt="DQN Evaluation Run Rewards">
   <p>Pong A.I. RL agent, which is in green, is getting positive rewards as seen from the attached evaluation run graph.</p>
 </div>
-![DQN Evaluation Run Rewards](https://github.com/user-attachments/assets/d131845a-2731-489b-9212-b65df96b7730)
 
 Pong A.I RL agent which is in green is getting positive rewards as can be seen from attached evaluation run graph.
 
 ### DDQN
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e)" alt="ddqnPong">
+  <img src="https://github.com/user-attachments/assets/eb68a516-5668-4c2e-a182-2080927c655e" alt="ddqnPong">
   <p>Pong A.I. RL DDQN agent wins the match with a 21-14 score.</p>
 </div>
 
