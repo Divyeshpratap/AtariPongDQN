@@ -25,6 +25,7 @@ ${ROOT}/
 │   ├── ddqnPong.mp4      # DDQN pong evaluation run
 │   ├── dqnPong.mp4       # DQN pong evaluation run
 └── requirements.txt      # Requirements file for model dependencies
+```
 
 ## Usage:
 To train the agent and evaluate its performance, follow these steps:
@@ -52,3 +53,7 @@ DDQN
 Pong A.I. RL DQN agent wins the match with a 21-14 score. 
 
 The better performance of DQN agent when compared to DQN agent is attributed to the fact that DDQN agent was trained only for 6000 episode while DQN agent was trained for 14000 episodes.
+
+## Acknowledgment
+This project uses computing resources from UB CCR and under the guidance of Prof. Alina Vereshchaka, Assistant Professor of Teaching at University at Buffalo.
+
